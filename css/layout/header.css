@@ -1,8 +1,15 @@
 .page-header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 27px;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+.header-social {
+    display: flex;
+    column-gap: 12px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+
 }
