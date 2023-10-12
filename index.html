@@ -1,51 +1,11 @@
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
-<title>Vyshyvanka Vibes</title>
-<link rel="stylesheet" href="./css/index.css" />
-</head>
-
-<body>
-  <load src="partials/header.html" />
-  <main>
-    <load src="partials/hero.html" />
-    <load src="partials/about-us.html" />
-    <load src="partials/our-collection.html" />
-    <load src="partials/your-order.html" />
-    <load src="partials/testimonials.html" />
-  </main>
-  <load src="partials/footer.html" />
-  <load src="partials/modal-window.html" />
-
-  <script type="module" src="/main.js"></script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- +++++++++++++++HEAD++++++++++++++++++++++++++++++++++++++++++ -->
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- FONTS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -53,144 +13,128 @@
     rel="stylesheet">
 
   <!-- Mobile tag -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Mobile tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" <title>Vishivanka</title>
 
   <title>Vishivanka</title>
+
   <!-- =====================================Normalize========================================= -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
 
-  <!-- -------------------------------------------------------------------------------------------- -->
-
+  <!-- CSS======================================================================================== -->
   <link rel="stylesheet" href="./css/index.css" />
 </head>
 
-<!-- Body ______________________________________________________________________________________-->
-
 <body>
-  <!--===================== Page header ==============+++++++++++++++++++++++++++++++===========-->
+  <!--===================== Page header =========================-->
   <header class="page-header">
-    <div class="container">
-      <img src="./icons/logo.svg#icon-logo" alt="texture" width="44" height="39">
+    <div class="container-header container">
+      <nav class="nav-header">
+        <a class="webstudio" href="./index.html">Web<span class="studio">Studio</span></a>
 
-      <nav class="header-navigation">
-        <ul class="header-nav-list">
-          <li><a href="#about-us" class="header-nav-links">about us</a></li>
+        <ul class="link-all">
           <li>
-            <a href="#our-collection" class="header-nav-links">our collection</a>
+            <a class="header-link current" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a href="#customer-order" class="header-nav-links">customer order</a>
-          </li>
-          <li>
-            <a href="#testimonials" class="header-nav-links">testimonials</a>
-          </li>
+          <li><a class="header-link" href="">Portfolio</a></li>
+          <li><a class="header-link" href="">Contacts</a></li>
         </ul>
       </nav>
 
-      <ul class="header-social">
-        <li class="header-social-link">
-          <a class="header-social-link-net" href="https://www.facebook.com/goITclub/" target="_blank">
-            <svg class="icons" width="28" height="28">
-              <use href="./icons/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-link">
-          <a class="header-social-link-net" href="https://www.instagram.com/goitclub/" target="_blank">
-            <svg class="icons" width="28" height="28">
-              <use href="./icons/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-link">
-          <a class="header-social-link-net" href="https://www.youtube.com/c/GoIT" target="_blank">
-            <svg class="icons" width="28" height="28">
-              <use href="./icons/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+      <address>
+        <ul class="address-list">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
 
       <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg class="header-burger-menu" width="36" height="24">
-          <use href="./icons/icons.svg#icon-burger"></use>
+        <svg class="header-icon-menu" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
         </svg>
       </button>
-
-
     </div>
   </header>
 
   <main>
 
 
-    <!-- ======================MENU MOBILE===================== -->
 
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu" type="button" aria-label="menu closed-button">
-        <svg class="icon-close-black" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
 
-      <nav class="menu-nav">
-        <ul class="menu-ul">
-          <li>
-            <a class="menu-link-studio" href="./index.html">Studio</a>
-          </li>
-          <li><a class="menu-link" href="">Portfolio</a></li>
-          <li><a class="menu-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
 
-      <address>
-        <ul class="menu-address-list">
-          <li>
-            <a class="menu-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="menu-link-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+  </main>
 
-      <ul class="link-social menu-link-social">
-        <li class="link-social-link">
-          <a class="link-social-a" href="" target="_blank">
-            <svg class="iconss" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
+
+  <!-- ======================MENU MOBILE===================== -->
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu" type="button" aria-label="menu closed-button">
+      <svg class="icon-close-black" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black"></use>
+      </svg>
+    </button>
+
+    <nav class="menu-nav">
+      <ul class="menu-ul">
+        <li>
+          <a class="menu-link-studio" href="./index.html">Studio</a>
         </li>
-        <li class="link-social-link">
-          <a class="link-social-a" href="" target="_blank">
-            <svg class="iconss" width="24" height="24">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
+        <li><a class="menu-link" href="">Portfolio</a></li>
+        <li><a class="menu-link" href="">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <ul class="menu-address-list">
+        <li>
+          <a class="menu-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="link-social-link">
-          <a class="link-social-a" href="" target="_blank">
-            <svg class="iconss" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="link-social-link">
-          <a class="link-social-a" href="" target="_blank">
-            <svg class="iconss" width="24" height="24">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
+        <li>
+          <a class="menu-link-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
-    </div>
+    </address>
 
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <ul class="link-social menu-link-social">
+      <li class="link-social-link">
+        <a class="link-social-a" href="" target="_blank">
+          <svg class="iconss" width="24" height="24">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="link-social-link">
+        <a class="link-social-a" href="" target="_blank">
+          <svg class="iconss" width="24" height="24">
+            <use href="./images/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="link-social-link">
+        <a class="link-social-a" href="" target="_blank">
+          <svg class="iconss" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="link-social-link">
+        <a class="link-social-a" href="" target="_blank">
+          <svg class="iconss" width="24" height="24">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
+
 </body>
 
 </html>
