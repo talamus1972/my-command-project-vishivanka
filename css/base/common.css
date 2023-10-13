@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* :root {
+  --dark: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
+} */
+
 h1,
 h2,
 h3,
@@ -15,6 +25,7 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 img {
@@ -25,7 +36,7 @@ img {
 button {
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+
 }
 
 .list {

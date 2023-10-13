@@ -1,15 +1,39 @@
-.page-header .container {
+.page-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 27px;
     padding-bottom: 60px;
 }
 
-.header-social {
+.header-nav-ul {
+    display: none;
+    column-gap: 25px;
+}
+
+.header-nav-ul-link {
+    color: #FCF9F9;
+    line-height: 1.28;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.phone-link {
+    display: none;
+    color: #FCF9F9;
+    line-height: 1.42;
+}
+
+.header-social-ul {
     display: flex;
     column-gap: 12px;
+}
+
+.header-social-ul-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
-
+    background: rgba(252, 249, 249, 0.10);
 }

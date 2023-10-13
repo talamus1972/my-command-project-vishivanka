@@ -13,12 +13,12 @@
     rel="stylesheet">
 
   <!-- Mobile tag -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" <title>Vishivanka</title>
-
-  <title>Vishivanka</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- =====================================Normalize========================================= -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+
+  <title>Vishivanka</title>
 
   <!-- CSS======================================================================================== -->
   <link rel="stylesheet" href="./css/index.css" />
@@ -26,37 +26,55 @@
 
 <body>
   <!--===================== Page header =========================-->
-  <header class="page-header">
-    <div class="container-header container">
-      <nav class="nav-header">
-        <a class="webstudio" href="./index.html">Web<span class="studio">Studio</span></a>
 
-        <ul class="link-all">
-          <li>
-            <a class="header-link current" href="./index.html">Studio</a>
-          </li>
-          <li><a class="header-link" href="">Portfolio</a></li>
-          <li><a class="header-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
+  <header class="page-header container">
 
-      <address>
-        <ul class="address-list">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+    <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" width="44" height="39" />
+    </a>
 
-      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg class="header-icon-menu" width="24" height="24">
-          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
-        </svg>
-      </button>
-    </div>
+
+    <nav class="header-navigation">
+      <ul class="header-nav-ul">
+        <li><a href="#about-us" class="header-nav-ul-link">about us</a></li>
+        <li><a href="#our-collection" class="header-nav-ul-link">our collection</a></li>
+        <li><a href="#customer-order" class="header-nav-ul-link">customer order</a></li>
+        <li><a href="#testimonials" class="header-nav-ul-link">testimonials</a></li>
+      </ul>
+    </nav>
+
+    <a href="tel:+380684439426" class="phone-link">+380 (68) 443-94-26</a>
+
+    <ul class="header-social-ul">
+      <li>
+        <a href="https://www.facebook.com/goITclub/" class="header-social-ul-link" target="_blank" title="facebook">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/goitclub/" class="header-social-ul-link" target="_blank" title="instagram">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/GoIT" class="header-social-ul-link" target="_blank" title="youtube">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <button class="header-button-burger js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="header-button-icon" width="44" height="30">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+
   </header>
 
   <main>
@@ -70,70 +88,22 @@
 
   <!-- ======================MENU MOBILE===================== -->
 
-  <div class="menu-container js-menu-container" id="mobile-menu">
+  <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+
+    <a href="tel:+380684439426" class="menu-phone-link">+380 (68) 443-94-26</a>
+
     <button class="menu-toggle js-close-menu" type="button" aria-label="menu closed-button">
-      <svg class="icon-close-black" width="8" height="8">
+      <svg class="icon-x" width="36" height="36">
         <use href="./images/icons.svg#icon-close-black"></use>
       </svg>
     </button>
 
-    <nav class="menu-nav">
-      <ul class="menu-ul">
-        <li>
-          <a class="menu-link-studio" href="./index.html">Studio</a>
-        </li>
-        <li><a class="menu-link" href="">Portfolio</a></li>
-        <li><a class="menu-link" href="">Contacts</a></li>
-      </ul>
-    </nav>
-
-    <address>
-      <ul class="menu-address-list">
-        <li>
-          <a class="menu-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="menu-link-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
-
-    <ul class="link-social menu-link-social">
-      <li class="link-social-link">
-        <a class="link-social-a" href="" target="_blank">
-          <svg class="iconss" width="24" height="24">
-            <use href="./images/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="link-social-link">
-        <a class="link-social-a" href="" target="_blank">
-          <svg class="iconss" width="24" height="24">
-            <use href="./images/icons.svg#icon-twitter"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="link-social-link">
-        <a class="link-social-a" href="" target="_blank">
-          <svg class="iconss" width="24" height="24">
-            <use href="./images/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="link-social-link">
-        <a class="link-social-a" href="" target="_blank">
-          <svg class="iconss" width="24" height="24">
-            <use href="./images/icons.svg#icon-linkedin"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
   </div>
 
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
-  <script defer src="js/mobile-menu.js"></script>
+  <script defer src="js/mobile-menu.js"></script> -->
 
 </body>
 

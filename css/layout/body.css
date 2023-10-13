@@ -1,34 +1,7 @@
 body {
-    background: #1C2225;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
+    color: #FCF9F9;
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #1C2225;
 }
-
-/* 
-.title-two {
-    text-align: center;
-    line-height: 1.11;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-
-.title-three {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-
-}
-
-.title-par {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
-} */
