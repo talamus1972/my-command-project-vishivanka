@@ -90,6 +90,10 @@
 
     }
 
+    .header-social-ul {
+        margin-left: 20px;
+    }
+
     @keyframes trambling-animation {
 
         0%,
