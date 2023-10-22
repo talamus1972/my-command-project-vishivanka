@@ -4,6 +4,7 @@
     font-weight: 400;
     line-height: 1.22;
     letter-spacing: -1.32px;
+    margin-bottom: 20px;
 
 }
 
@@ -13,7 +14,13 @@
 
 
 .hero-buttom {
+    display: flex;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
-    margin-top: 20px;
+    background-color: transparent;
+    color: #FCF9F9;
+    column-gap: 10px;
+    padding: 14px 36px;
+    margin: 0 auto;
+
 }
