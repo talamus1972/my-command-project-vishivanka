@@ -21,6 +21,9 @@
     color: #FCF9F9;
     column-gap: 10px;
     padding: 14px 36px;
-    margin: 0 auto;
+    margin: 20px 130px 40px 70px;
+}
 
+.hero-image {
+    margin-top: 40px;
 }
