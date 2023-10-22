@@ -28,6 +28,14 @@
     margin-top: 40px;
 }
 
+.hero-icon-star-div {
+    display: none;
+}
+
+.hero-ornament-img {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
 
     .hero-text {
@@ -63,6 +71,7 @@
     }
 
     .hero-ornament-img {
+        display: block;
         position: absolute;
         right: 32px;
         top: 800px;
@@ -70,9 +79,40 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .hero-container .container {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: flex-end;
 
+    }
+
+    .hero-wrap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 94px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .hero-image {
+        margin-top: 0;
+    }
+
+    .hero-text {
+        width: 518px;
+    }
+
+    .hero-icon-star-div {
+        right: 124px;
+        top: 154px;
+    }
+
+    .hero-buttom {
+        width: 154px;
+    }
+
+    .hero-ornament-img {
+        top: 503px;
+        right: 95px;
     }
 }
