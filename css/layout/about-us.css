@@ -21,6 +21,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.56px;
+    margin-bottom: 20px;
 }
 
 .about-us-par2 {
@@ -34,6 +35,8 @@
     letter-spacing: -0.56px;
 }
 
-.about-us-par1 {
-    margin-bottom: 20px;
+.abount-us-sleeve {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
