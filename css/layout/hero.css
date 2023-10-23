@@ -4,7 +4,8 @@
     font-weight: 400;
     line-height: 1.22;
     letter-spacing: -1.32px;
-    margin-bottom: 20px;
+    width: 335px;
+    margin: 0 auto;
 
 }
 
@@ -25,7 +26,8 @@
 }
 
 .hero-image {
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-icon-star-div {
@@ -79,7 +81,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-container .container {
+    .hero container {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
@@ -113,6 +115,6 @@
 
     .hero-ornament-img {
         top: 503px;
-        right: 95px;
+        right: 120px;
     }
 }
