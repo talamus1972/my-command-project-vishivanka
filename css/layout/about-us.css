@@ -1,7 +1,5 @@
 .about-us-h2 {
-    color: var(--white, #FCF9F9);
-
-
+    color: #FCF9F9;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -10,6 +8,7 @@
     letter-spacing: -0.96px;
     margin-bottom: 40px;
     margin-top: 80px;
+
 }
 
 .about-us-par1 {
@@ -39,4 +38,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
+
+.about-us-images {}
