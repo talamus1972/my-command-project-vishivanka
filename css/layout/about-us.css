@@ -35,10 +35,14 @@
 }
 
 .abount-us-sleeve {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin: 0 auto;
+
 }
 
-.about-us-images {}
+.about-us-img {
+    background-image: url(../../images/about-us/background/about-us-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    /* background-size: 251px 408px; */
+}
